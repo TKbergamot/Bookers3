@@ -2,9 +2,9 @@
 lock "~> 3.12.0"
 
 set :application, "Bookers3"
-set :repo_url, "git@github.com:TKbergamot/Deploy-test.git"
+set :repo_url, "git@github.com:TKbergamot/Bookers3.git"
 
-set :deploy_to, "/home/ec2-user/Deploy-test/Bookers3"
+set :deploy_to, "/home/ec2-user/Bookers3"
 set :rbenv_ruby, '2.5.7'
 set :linked_files, %w{config/master.key .env}
 append :linked_dirs, "log", "tmp/pids", "tmp/cache", "tmp/sockets", "public/system"
